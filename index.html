@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas Operacionais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Sistemas Operacionais</h2>
+</nav>
+
+<header>
+    <h1>🌐 Explorando Sistemas Operacionais</h1>
+    <p>Clique em um sistema para conhecer sua história, vantagens e desvantagens</p>
+</header>
+
+<section class="cards">
+    <div class="card ios" onclick="mostrarInfo('ios')">
+        <h2>📱 iOS</h2>
+    </div>
+
+    <div class="card android" onclick="mostrarInfo('android')">
+        <h2>🤖 Android</h2>
+    </div>
+
+    <div class="card linux" onclick="mostrarInfo('linux')">
+        <h2>🐧 Linux</h2>
+    </div>
+
+    <div class="card windows" onclick="mostrarInfo('windows')">
+        <h2>🪟 Windows</h2>
+    </div>
+</section>
+
+<section id="infoBox">
+    <h2>Selecione um sistema acima</h2>
+    <p>As informações aparecerão aqui.</p>
+</section>
+
+<section class="comparacao">
+    <h2>📊 Comparação Geral</h2>
+    <table>
+        <tr>
+            <th>Sistema</th>
+            <th>Segurança</th>
+            <th>Facilidade</th>
+            <th>Popularidade</th>
+        </tr>
+        <tr>
+            <td>iOS</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Android</td>
+            <td>⭐⭐⭐</td>
+            <td>⭐⭐⭐⭐</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Linux</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>⭐⭐</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Windows</td>
+            <td>⭐⭐⭐</td>
+            <td>⭐⭐⭐⭐⭐</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+    </table>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
